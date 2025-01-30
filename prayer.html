@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prayer Times</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="prayers">
+        <div class="time">
+            <h1>جدول الصلاة</h1>
+            <p><span>01/12/2024</span></p>
+        </div>
+        <div class="table">
+            <div class="pray">
+                <h2>الفجر</h2>
+                <p id="fadjer">4:20</p>
+            </div>
+            <div class="pray">
+                <h2>الشروق</h2>
+                <p id="sunrise">5:20</p>
+            </div>
+            <div class="pray">
+                <h2>الظهر</h2>
+                <p id="duhur">12:55</p>
+            </div>
+            <div class="pray">
+                <h2>العصر</h2>
+                <p id="asar">16:45</p>
+            </div>
+            <div class="pray">
+                <h2>المغرب</h2>
+                <p id="magrib">20:00</p>
+            </div>
+            <div class="pray">
+                <h2>العشاء</h2>
+                <p id="isha">9:30</p>
+            </div>
+        </div>
+    </div>
+    <script src="node_modules/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
